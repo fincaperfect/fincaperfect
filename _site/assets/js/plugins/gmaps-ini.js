@@ -32,20 +32,20 @@ function initMap() {
 	var map = new google.maps.Map(document.getElementById('map'), {
 		zoom: 12,
 		scrollwheel: false,
-		center: {lat: 5.119429, lng: -74.354394},  // Hoya Grande.
+		center: {lat: 40.674, lng: -73.946},  // Brooklyn.
 		mapTypeControlOptions: {
 			mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
 		}
 	});
 
 	var infowindow = new google.maps.InfoWindow;
-	infowindow.setContent('<b>La Finca Perfecta</b>');
+	infowindow.setContent('<b>Brooklyn</b>');
 
 	var marker = new google.maps.Marker({
 		map: map,
 		clickable: false,
 		icon: image,
-		position: {lat: 5.119429, lng: -74.354394}
+		position: {lat: 40.674, lng: -73.946}
 	});
 
 	map.mapTypes.set(customMapTypeId, customMapType);
