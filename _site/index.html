@@ -20,20 +20,19 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
 
-<!-- Magnific Popup core CSS file -->
-<link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+
 
 <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-<!-- Magnific Popup core JS file -->
-<script src="magnific-popup/jquery.magnific-popup.js"></script>
+
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/lawyer.style.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -62,7 +61,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                   <a class="page-scroll" href="/como">Cómo Llegar</a>
+                   <a class="page-scroll" href="#contact">Cómo Llegar</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#services">Services</a>
@@ -86,13 +85,11 @@
             <h1>La Finca Perfecta</h1>
             <hr>
             <p></p>
-            <a href="#portfolio" class="btn btn-primary btn-xl page-scroll">Descubrela</a>
+            <a href="#portfolio" class="btn btn-primary btn-xl page-scroll">Descúbrela</a>
         </div>
     </div>
 </header>
 
-  
- 
   <section class="no-padding" id="portfolio">
     <div class="container-fluid">
         <div class="row no-gutter">
@@ -206,13 +203,39 @@
       </div>
   </aside>
 
-  <section id="contact">
+  
+  
+<section id="contact" class="g-theme-bg-color-1 g-text-color-2">
+                <div class="container-fluid">
+                    <div class="row no-column-space equal-height-columns">
+                        <div class="col-sm-6 g-dp-table g-va-middle equal-height-column">
+                            <div class="g-pl-80 g-pr-80 g-pl-15--xs g-pr-15--xs g-pt-100 g-pb-50 g-dp-table-cell g-va-middle">
+                                <div class="g-heading-v9 g-mb-30">
+                                    <h2 class="text-uppercase"><strong>Cómo Llegar a la finca Perfecta</strong></h2>
+                                </div>
+                                <p class="g-fs-16 g-mb-60">La Finca se encuentra ubicada en la vereda HOYA GRANDE/MAGOLA. 
+Salir por la calle 80 vía La Vega, tomar la primera salida de San Francisco, entrar al municipio y tomar la vía en dirección a Supata, una vez llegue al municipio Magola (aproximadamente 20-25 min de San Francisco) girar a la izquierda en dirección Vergara y seguir los letreros rojos-amarillos que anuncian el Resort CAROL JUDITH, estos lo llevaran a la entrada de la vereda HOYA GRANDE, después de pasar la tienda de la vereda hacer una izquierda manejar 200 mts por esta única vía y una vez que empieza a bajar, la finca se encuentra a mano izquierda. </p>
+                                <ul class="list-unstyled g-fs-12 address-list text-uppercase">
+                                    <li><i class="glyphicon glyphicon-map-marker g-mr-15"></i> <em>Address:</em> <strong>Sigue las Instrucciones</strong></li>
+                                    <li><i class="glyphicon glyphicon-earphone g-mr-15"></i> <em>Phone Number:</em> <strong>+57 315 555555</strong></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div id="map" class="contact-section-map"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+<section id="contact">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Comunicate Con nosotros</h2>
+                <h2 class="section-heading">Comunícate con nosotros</h2>
                 <hr class="primary">
-                <p>Estremos listos para Contestar tus dudas y tus preguntas.</p>
+                <p>Estaremos listos para Contestar tus dudas y tus preguntas.</p>
             </div>
         <div class="col-lg-2 col-lg-offset-2 text-center">
             <a href="https://twitter.com/">
@@ -228,13 +251,21 @@
         </div>
         <div class="col-lg-2 col-lg-offset-1 text-center">
             <a href="https://github.com/">
-            <i class="fa fa-github fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+            <i class="fa fa-facebook fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                 <p></p>
             </a>
         </div>
 
     </div>
 </section>
+
+<!-- Footer -->
+        
+            <!-- Contact section -->
+            
+            <!-- End Contact section -->
+        
+        <!-- End Footer -->
 
   <!-- jQuery -->
 <script src="js/jquery.js"></script>
@@ -250,6 +281,9 @@
 <!-- Custom Theme JavaScript -->
 <script src="js/creative.js"></script>
 
+<script src="https://maps.googleapis.com/maps/api/js?signed_in=true&amp;callback=initMap" async defer></script><script src="assets/js/plugins/gmaps-ini.js"></script>
+	
+	
 </body>
 
 </html>
