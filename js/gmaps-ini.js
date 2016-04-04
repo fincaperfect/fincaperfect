@@ -17,7 +17,7 @@ function initMap() {
 				stylers: [{color: '#f7f4f4'}]
 			}
 		], {
-			name: 'Unify Style'
+			name: 'La Finca'
 	});
 
 	var image = new google.maps.MarkerImage(
