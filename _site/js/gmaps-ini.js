@@ -1,24 +1,24 @@
 // https://developers.google.com/maps/documentation/javascript/examples/
 function initMap() {
-	var customMapType = new google.maps.StyledMapType([
-			{
-				stylers: [
-					{'saturation': -100},
-					{'lightness': 51},
-					{'visibility': 'simplified'}
-				]
-			},
-			{
-				elementType: 'labels',
-				stylers: [{visibility: 'on'}]
-			},
-			{
-				featureType: 'water',
-				stylers: [{color: '#f7f4f4'}]
-			}
-		], {
-			name: 'Unify Style'
-	});
+	// var customMapType = new google.maps.StyledMapType([
+	// 		{
+	// 			stylers: [
+	// 				{'saturation': -120},
+	// 				{'lightness': 41},
+	// 				{'visibility': 'simplified'}
+	// 			]
+	// 		},
+	// 		{
+	// 			elementType: 'labels',
+	// 			stylers: [{visibility: 'on'}]
+	// 		},
+	// 		{
+	// 			featureType: 'water',
+	// 			stylers: [{color: '#f7f4f4'}]
+	// 		}
+	// 	], {
+	// 		name: 'La Finca'
+	// });
 
 	var image = new google.maps.MarkerImage(
 		'assets/img/marker.png',
