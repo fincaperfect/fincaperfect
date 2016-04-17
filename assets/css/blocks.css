@@ -450,7 +450,7 @@
 }
 
 .breadcrumbs-v3.img-v2 {
-  background: url(../img/breadcrumbs/img2.jpg) no-repeat;
+  background: url(../../img/portfolio/vista.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -3337,7 +3337,7 @@
 	[22. Quote]
 ----------------------------------------------------*/
 .quote-v1 {
-  padding: 170px 0 150px;
+  padding: 70px 0 70px;
   text-align: center;
   background: url(../img/patterns/5.png) repeat;
 }
@@ -3352,7 +3352,7 @@
 }
 
 .quote-v1 p:before {
-  color: #72c02c;
+  color: #c0391c;
   font-size: 60px;
   content: "\201C";
   position: absolute;
@@ -3361,7 +3361,7 @@
 }
 
 .quote-v1 span {
-  color: #fff;
+  color: #555;
   font-size: 18px;
 }
 
