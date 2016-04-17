@@ -3359,6 +3359,14 @@
   margin: -30px 0 0 -40px;
   font-family: Georgia, serif;
 }
+.quote-v1 p:after {
+  color: #c0391c;
+  font-size: 60px;
+  content: "\201D";
+  position: absolute;
+  margin: -30px 0 0 10px;
+  font-family: Georgia, serif;
+}
 
 .quote-v1 span {
   color: #555;
