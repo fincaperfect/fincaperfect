@@ -1,6 +1,6 @@
 # Site settings
 title: La finca Perfecta. 
-email: lafincaperfecta@gmail.com
+email: lenarnoldsson@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "lafincaperfecta.github.io" # the base hostname & protocol for your site
